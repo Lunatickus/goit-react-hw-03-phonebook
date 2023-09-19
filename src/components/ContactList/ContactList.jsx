@@ -7,7 +7,7 @@ export const ContactList = ({ contacts, handleDelete }) => {
         return (
           <ContactItem
             contact={contact}
-            handleDelete={handleDelete}
+            handleDelete={() => handleDelete(contact.id)}
             key={contact.id}
           />
         );
