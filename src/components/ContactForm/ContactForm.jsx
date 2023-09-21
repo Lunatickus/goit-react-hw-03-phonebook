@@ -43,13 +43,13 @@ export const ContactForm = ({ handleSubmit }) => {
     >
       <FormContacts autoComplete="off">
         <FromLabel>
-          Name
+          <span>Name</span>
           <Input type="text" name="name" />
           <FormError name="name" />
         </FromLabel>
 
         <FromLabel>
-          Number
+          <span>Number</span>
           <Input type="tel" name="number" />
           <FormError name="number" />
         </FromLabel>
